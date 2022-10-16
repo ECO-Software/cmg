@@ -1,0 +1,15 @@
+{% extends "base_template.html" %}
+{% block title %}
+    {% if slug %}
+        Modificando el usuario {{ slug }}
+    {% else %}
+        Nuevo usuario
+    {% endif %}
+{% endblock %}
+{% block content %}
+    {% if slug %}
+        Modificando el usuario {{ slug }}
+    {% else %}
+        Nuevo usuario
+    {% endif %}
+{% endblock %}
